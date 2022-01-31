@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link custom css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- GOOGLE FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="counter"  >
+        <div class="counter-first" data-aos="fade-in" data-aos-duration="10000">
+            <div>
+                <h1 >Counter</h1>
+                <span id="countNum">0</span>
+            </div>
+
+            <div class="ancer-list">
+                <a href="#" id="increase" data-aos="fade-right">INCREASE</a>
+                <a href="#" id="reset">RESET</a>
+                <a href="#" id="decrease" data-aos="fade-left">DECREASE</a>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
